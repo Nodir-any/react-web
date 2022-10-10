@@ -1,0 +1,184 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.Header{
+	margin: 0 auto;
+	padding: 1.3rem 3rem;
+}
+
+.Header nav ol{
+	display: flex;
+	padding: .3rem .2rem;
+	text-decoration: none;
+}
+
+.Header nav ol button{
+	display: none;
+}
+
+ol{
+	list-style: none;
+	counter-reset: item;
+}
+
+ol li a:hover{
+	transition: decoration .3s ease;
+	background: rgba(0,0,0,.1);
+}
+
+
+.Header nav ol li a{
+	width: 2rem;
+	height: .6rem;
+	padding: 1rem 1.4rem;
+	text-decoration: none;
+	color: black;
+	font-size: 1.4rem;
+	font-weight: 600;
+	border-radius: .2rem;
+	color: #fff;
+}
+
+.Header h3{
+	margin-top: 0;
+	text-align: center;
+	background: #fff;
+	padding: 1rem 4rem;
+	border-radius: 2rem;
+	box-shadow: 0 10px 7px #edf5e1;
+}
+
+.btn{
+	padding: .4rem .7rem;
+	font-size: .9rem;
+	background: lightcyan;
+	border: none;
+	border-radius: .1rem;
+	box-shadow: 0px 3px 5px #edf5e1;
+	cursor: pointer;
+	transition: background .3s ease;
+}
+
+.btn:hover{
+	background: #e8a87c;
+}
+
+.text{
+	text-align: center;
+	margin-top: 40%;
+	font-size: 2rem;
+}
+
+.description{
+	margin: 2rem 1rem;
+	padding: 0 1rem;
+	text-align: center;
+	color: #333333;
+	font-size: 1.4rem;
+}
+
+.btn2{
+	margin: 0 5rem 7.5rem 7.5rem;
+	font-size: 1rem;
+}
+
+.about{
+	margin: 1rem 3rem;
+	padding: 1rem 1rem;
+}
+
+.images{
+	width: 60vw;
+	height: 20vh;
+	margin: 0rem 1rem;
+	padding: .5rem 1rem;
+}
+
+#about{
+	display: flex;
+}
+.about-des{
+	text-align: center;
+	margin-bottom: 10rem;
+}
+
+.body-footer{
+	background: #101820ff;
+	width: 100vw;
+	overflow: hidden;
+	
+}
+
+.footer-text{
+	padding-top: 1rem;
+	text-align: center;
+	color: white;
+	
+}
+
+.columns{
+	display: inline-block;
+	margin: 1rem;
+	padding: 1rem;
+	-moz-columns-count: 2;
+}
+
+.columns h3{
+		color: yellow;
+}
+
+.columns a{
+	margin: 5px;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.row{
+	text-align: center;
+}
+.col{
+	margin: 2rem 3rem;
+	display: inline-block;
+}
+
+.col a{
+	margin: 0 .6rem;
+}
+
+@media (min-width: 760px){
+	.Header nav ol{
+		justify-content: space-evenly;
+	}
+
+	.Header nav ol button{
+		display: block;
+	}
+
+	.text{
+		margin-top: 6rem;
+	}
+	.description{
+		margin: 2rem 3rem;
+		padding: 0 5rem;
+	}
+	
+	.btn2{
+		margin: 0 42vw;
+		margin-bottom: 40vh;
+		padding: .4rem 2rem;
+	}
+	.columns{
+		display: flex;
+	}
+	.cols{
+		margin-left: 3rem;
+		margin-bottom: 3rem;
+	}
+	.for-margin{
+		margin-left: 3rem;
+	}
+}
+
